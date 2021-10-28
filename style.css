@@ -19,6 +19,12 @@ body {
       "hobbies-tarjeta        experiencias-tarjetas"
       "pages-bar-2            pages-bar-2"
       "proyecto-tarjeta-1     proyecto-tarjeta-2"
+      "proyecto-tarjeta-3     proyecto-tarjeta-4"
+      "proyecto-tarjeta-5     proyecto-tarjeta-6"
+      "proyecto-tarjeta-7     proyecto-tarjeta-8"
+      "proyecto-tarjeta-9     proyecto-tarjeta-10"
+      "proyecto-tarjeta-11     proyecto-tarjeta-12"
+      "proyecto-tarjeta-13     proyecto-tarjeta-14"
       "pagina-barra-1         pagina-barra-1";
   }
   
@@ -100,7 +106,43 @@ body {
   .proyecto-tarjeta-2 {
     grid-area: proyecto-tarjeta-2;
   }
-  
+  .proyecto-tarjeta-3{
+    grid-area: proyecto-tarjeta-3;
+  }
+  .proyecto-tarjeta-4{
+    grid-area: proyecto-tarjeta-4;
+  }
+  .proyecto-tarjeta-5{
+    grid-area: proyecto-tarjeta-5;
+  }
+  .proyecto-tarjeta-6{
+    grid-area: proyecto-tarjeta-6;
+  }
+  .proyecto-tarjeta-7{
+    grid-area: proyecto-tarjeta-7;
+  }
+  .proyecto-tarjeta-8{
+    grid-area: proyecto-tarjeta-8;
+  }
+  .proyecto-tarjeta-9{
+    grid-area: proyecto-tarjeta-9;
+  }
+  .proyecto-tarjeta-10{
+    grid-area: proyecto-tarjeta-10;
+  }
+  .proyecto-tarjeta-11{
+    grid-area: proyecto-tarjeta-11;
+  }
+  .proyecto-tarjeta-12{
+    grid-area: proyecto-tarjeta-12;
+  }
+  .proyecto-tarjeta-13{
+    grid-area: proyecto-tarjeta-13;
+  }
+  .proyecto-tarjeta-14{
+    grid-area: proyecto-tarjeta-14;
+  }
+
   .proyecto-tarjeta__img {
     width: 390px;
     height: 270px;
@@ -242,13 +284,13 @@ body {
   
   /* esta parte me ayuda a cambiar el porcetaje de las barras azules */
   .habilidad-tarjeta__porcentaje--1 {
-    width: 50%;
+    width: 70%;
   }
   .habilidad-tarjeta__porcentaje--2 {
-    width: 20%;
+    width: 40%;
   }
   .habilidad-tarjeta__porcentaje--3 {
-    width: 50%;
+    width: 70%;
   }
   
   /* Tarjetas */
@@ -382,6 +424,16 @@ body {
   }
   
   /* Comienza la seccion de Hobbies*/
+  .title_proyect{
+    position: relative;
+    display: inline-block;
+    background-color: #ffff;
+    top:20px;
+    height: 40px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+  }
   
   .hobbies-tarjeta {
     grid-area: hobbies-tarjeta;
@@ -432,7 +484,18 @@ body {
     margin: 7px 0 0;
   }
   
-      
+  .hobbies-card__img-1{
+    height: 250px;
+    width: inherit;
+    object-fit: cover;
+    border-radius: 9px;
+  }
+  .hobbies-tarjeta__img-3{
+    height: 250px;
+    width: inherit;
+    object-fit: cover;
+    border-radius: 9px;
+  }
   /* Barra de numeros de la inferior */
   
   .pagina-barra-1 {
