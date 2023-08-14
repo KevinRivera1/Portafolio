@@ -1,7 +1,7 @@
 # Portafolio
 Creacion de mi portafolio personal
 
-<div aling="center">
+<div align="center">
     <img src="img/capturaPortafolio.png">
 </div>
 
