@@ -1,7 +1,9 @@
 # Portafolio
 Creacion de mi portafolio personal
 
-<img src="img/capturaPortafolio.png">
+<div aling="center">
+    <img src="img/capturaPortafolio.png">
+</div>
 
 # Portafolio de Kevin Rivera - Desarrollador Front-end Junior
 
